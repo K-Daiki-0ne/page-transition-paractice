@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Image from 'next/image'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -11,11 +11,13 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1>Sample Page Transition Animation</h1>
+        <h1>Home page</h1>
       </div>
 
-      <div className={styles.image}>
-        
+      <div>
+        <Link href="/about">
+          about
+        </Link>
       </div>
 
     </div>
