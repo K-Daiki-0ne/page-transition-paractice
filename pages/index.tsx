@@ -26,6 +26,12 @@ export default function Home() {
         </Link>
       </div>
 
+      <div>
+        <Link href="/fadein">
+          Fadein
+        </Link>
+      </div>
+
     </div>
   )
 }
